@@ -16,11 +16,11 @@ const portfolio = {
   projects: [
     {
       type: "Web App",
-      title: "Aplikasi Website Berbasis PHP",
-      description: "Dashboard admin modern untuk analisis data dan manajemen pengguna.",
-      image: "assets/project-1.svg",
-      tags: ["React", "Node.js"],
-      url: "https://github.com/USERNAME/project-1"
+      title: "Informasi Pengolahan Data Berbasis Website",
+      description: "Informasi Pengolahan Data Bahan Produk – Produk di CV Kema Sejahtera Berbasis Website.",
+      image: "assets/project.jpg",
+      tags: ["Html", "PHP"],
+      url: "https://archive.umsida.ac.id/index.php/archive/preprint/view/6647"
     }
   ]
 };
