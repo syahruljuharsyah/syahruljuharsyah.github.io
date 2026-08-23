@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 680">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111a35"/><stop offset="1" stop-color="#4f46e5"/></linearGradient>
+</defs>
+<rect width="600" height="680" rx="28" fill="url(#g)"/>
+<circle cx="300" cy="245" r="120" fill="#0b1020"/>
+<circle cx="300" cy="220" r="82" fill="#d8a47f"/>
+<path d="M215 210c10-95 170-120 175 5-38-37-96-49-175-5z" fill="#111"/>
+<path d="M185 650c10-150 75-205 115-205h0c65 0 105 55 115 205z" fill="#090d18"/>
+<path d="M218 285c30 34 135 40 164-5-3 80-35 117-82 117s-79-37-82-112z" fill="#d39a76"/>
+<circle cx="270" cy="222" r="6" fill="#111"/><circle cx="335" cy="222" r="6" fill="#111"/>
+<path d="M282 264q18 12 36 0" stroke="#111" stroke-width="5" fill="none" stroke-linecap="round"/>
+<text x="300" y="620" text-anchor="middle" fill="#fff" font-family="Arial" font-size="26" font-weight="700">GANTI FOTO DI SINI</text>
+</svg>
