@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio pribadi Krian - Web Developer">
+  <title>Syahrul Juharsyah — Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/profile.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">Portofolio<span>.</span></a>
+    <nav id="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" aria-label="Ganti tema">☾</button>
+      <a class="github-top" href="https://github.com/USERNAME" target="_blank" rel="noopener" aria-label="GitHub">◉</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Halo, saya</p>
+        <h1>SYAHRUL JUHARSYAH</h1>
+        <h2>S1 Informatika</h2>
+        <p class="hero-text">
+          Saya lulusan S1 Informatika Universitas Muhammadiyah Sidoarjo.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">Lihat Proyek Saya <span>→</span></a>
+          <a class="btn" href="assets/CV.pdf" download>Download CV <span>↓</span></a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.tiktok.com/@kotokbiru" target="_blank" rel="noopener">Tiktok</a>
+          <a href="mailto:syahrulmojokerto@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal">
+        <div class="photo-glow"></div>
+        <img src="assets/profile.svg" alt="Foto profil Krian" id="profileImage">
+      </div>
+    </section>
+
+    <section id="about" class="about section reveal">
+      <div>
+        <p class="section-label">01 — Tentang Saya</p>
+        <h2>Siapa saya?</h2>
+        <p>
+          Saya memiliki pengalaman kerja lebih dari 2 tahun di perusahaan PT. Mahadaya Karya Abd penyedia jasa tenaga kerja, penempatan kerja di PT. Supranusa Indogita dengan posisi Admin Produksi.
+        </p>
+        <a class="btn" href="#contact">Mari Terhubung <span>→</span></a>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>2+</strong><span>Tahun Pengalaman Kerja</span></div>
+        <div class="stat"><strong>2</strong><span>Sertifikat BNSP</span></div>
+        <div class="stat"><strong>1</strong><span>Sertifikat Kemenkop</span></div>
+        <div class="stat"><strong>1</strong><span>Sertifikat Kemenhan</span></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="section-heading">
+        <p class="section-label">02 — Keahlian</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-heading">
+        <p class="section-label">03 — Portfolio</p>
+        <h2>Proyek Saya</h2>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <section id="contact" class="contact section reveal">
+      <p class="section-label">04 — Kontak</p>
+      <h2>Hubungi Saya!</h2>
+      <div class="contact-grid">
+        <a href="mailto:syahrulmojokerto@gmail.com"><span>Email</span><strong>syahrulmojokerto@gmail.com</strong></a>
+        <a href="https://wa.me/62895396107780" target="_blank" rel="noopener"><span>WhatsApp</span><strong>+62895396107780</strong></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Syahrul Juharsyah. All rights reserved.</p>
+  </footer>
+
+  <button id="backTop" aria-label="Kembali ke atas">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
