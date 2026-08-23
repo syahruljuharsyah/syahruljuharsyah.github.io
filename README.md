@@ -1,6 +1,6 @@
-# Portfolio
+# Portfolio Syahrul Juharsyah
 
-Portofolio Syahrul Juharsyah bisa digunakan untuk umum silahkan kalian coba.
+Portofolio ini bisa digunakan untuk umum silahkan kalian coba.
 
 ## Cara edit
 1. Buka `index.html` untuk mengubah nama, deskripsi, kontak, dan link sosial.
@@ -13,3 +13,5 @@ Portofolio Syahrul Juharsyah bisa digunakan untuk umum silahkan kalian coba.
 ## Catatan
 - `assets/CV.pdf` belum disertakan. Masukkan file CV kamu dengan nama tersebut, atau ubah link CV di `index.html`.
 - Ganti semua `USERNAME` dengan username GitHub kamu.
+
+Selamat Mencoba 🙂
